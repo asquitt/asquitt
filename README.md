@@ -4,11 +4,11 @@
 
 I'm a Software Engineer passionate about building scalable, distributed systems and AI-powered applications. I love architecting backend services, optimizing performance, and creating impactful full-stack solutions that serve real users.
 
-- 🔭 I'm currently working on AI chatbot platforms and real-time analytics systems at a Stealth Startup
-- 🌱 I'm currently learning advanced distributed systems architecture and vector-based semantic search
-- 👯 I'm looking to collaborate on open-source projects involving AI/ML, microservices, or NLP applications
-- 💬 Ask me about backend architecture, performance optimization, Kafka event streams, or building accessible UIs
-- 📫 How to reach me: demarioasquitt@gmail.com
+- I'm currently working on AI chatbot platforms and real-time analytics systems at a Stealth Startup
+- I'm currently learning advanced distributed systems architecture and vector-based semantic search
+- I'm looking to collaborate on open-source projects involving AI/ML, microservices, or NLP applications
+- Ask me about backend architecture, performance optimization, Kafka event streams, or building accessible UIs
+- How to reach me: demarioasquitt@gmail.com
 - ⚡ Fun fact: I won First Place at the NEDSI Annual Conference 2022 for applying Multilingual Sentiment Analysis to predict threats from social media
 
 ## Tech Stack
