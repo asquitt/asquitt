@@ -4,7 +4,7 @@
 
 I'm a Software Engineer passionate about building scalable, distributed systems and AI-powered applications. I love architecting backend services, building Agentic AI solutions, optimizing performance, and creating impactful full-stack solutions that serve real users.
 
-- I'm currently working on AI chatbot platforms and real-time analytics systems at [Orbitr](https://www.getorbitr.com/) (fresh out of Stealth mode).
+- I'm currently working on AI agents for SEO and GEO at [Orbitr](https://www.getorbitr.com/) (fresh out of Stealth mode).\
 - I'm currently learning advanced distributed systems architecture and vector-based semantic search
 - I'm looking to collaborate on open-source projects involving AI/ML, microservices, or NLP applications
 - Ask me about backend architecture, performance optimization, Kafka event streams, or building accessible UIs
@@ -28,7 +28,6 @@ I'm a Software Engineer passionate about building scalable, distributed systems 
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Redux](https://img.shields.io/badge/-Redux-764ABC?style=flat&logo=redux&logoColor=white)
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
 
 ### Databases & Messaging
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
@@ -40,7 +39,6 @@ I'm a Software Engineer passionate about building scalable, distributed systems 
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat&logo=gitlab&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat&logo=grafana&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
