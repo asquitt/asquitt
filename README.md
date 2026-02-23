@@ -4,7 +4,7 @@
 
 I'm a Software Engineer passionate about building scalable, distributed systems and AI-powered applications. I love architecting backend services, building Agentic AI solutions, optimizing performance, and creating impactful full-stack solutions that serve real users.
 
-- I'm currently working on AI chatbot platforms and real-time analytics systems at a Stealth Startup
+- I'm currently working on AI chatbot platforms and real-time analytics systems at a [Orbitr](https://www.getorbitr.com/) (fresh out of Stealth mode).
 - I'm currently learning advanced distributed systems architecture and vector-based semantic search
 - I'm looking to collaborate on open-source projects involving AI/ML, microservices, or NLP applications
 - Ask me about backend architecture, performance optimization, Kafka event streams, or building accessible UIs
@@ -66,8 +66,6 @@ Full-stack conversational AI platform providing universities with intelligent ac
 - Handles 100K+ chatbot interactions monthly with real-time event analytics
 
 ## GitHub Stats
-
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=asquitt&show_icons=true&theme=radical)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=asquitt&layout=compact&theme=radical)
 
