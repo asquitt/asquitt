@@ -1,97 +1,157 @@
-# Hi there, I'm Demario 
+<p align="center">
+  <img src="./assets/agent-boot.svg" alt="Agent System Terminal" width="800"/>
+</p>
 
-## About Me
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=79C0FF&center=true&vCenter=true&multiline=false&width=520&height=35&lines=AI+Agent+Architect;Multi-Agent+Systems+Engineer;Building+software+that+thinks+for+itself" alt="Typing SVG" />
+  </a>
+</p>
 
-I'm a Software Engineer passionate about building scalable, distributed systems and AI-powered applications. I love architecting backend services, building Agentic AI solutions, optimizing performance, and creating impactful full-stack solutions that serve real users.
+<br/>
 
-- I'm currently working on AI chatbot platforms and real-time analytics systems at a Stealth Startup
-- I'm currently learning advanced distributed systems architecture and vector-based semantic search
-- I'm looking to collaborate on open-source projects involving AI/ML, microservices, or NLP applications
-- Ask me about backend architecture, performance optimization, Kafka event streams, or building accessible UIs
-- How to reach me: demarioasquitt@gmail.com
-- Fun fact: I won First Place at the NEDSI Annual Conference 2022 for applying Multilingual Sentiment Analysis to predict threats from social media
+I design and build **autonomous AI agent systems** — software that reasons, plans, and executes without hand-holding. Currently architecting multi-agent orchestration at [**Orbitr**](https://www.getorbitr.com), where 12 specialized agents autonomously optimize SEO across any website platform. Previously built risk systems processing **$2.7B+ daily** at Bank of America and shipped Core ML demos at **Apple** for WWDC22.
 
-## Tech Stack
-
-### Languages
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat&logo=swift&logoColor=white)
-
-### Frameworks & Libraries
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Redux](https://img.shields.io/badge/-Redux-764ABC?style=flat&logo=redux&logoColor=white)
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
-
-### Databases & Messaging
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Cassandra](https://img.shields.io/badge/-Cassandra-1287B1?style=flat&logo=apache-cassandra&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
-![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
-
-### Tools & Platforms
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat&logo=gitlab&logoColor=white)
-![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat&logo=grafana&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
-## Featured Projects
-
-### [Advanced RAG System](https://github.com/asquitt/advanced-rag-system)
-An intelligent Retrieval-Augmented Generation system leveraging vector embeddings and semantic search for enhanced AI responses.
-- Implemented vector-based semantic retrieval using Elasticsearch for fast, context-aware search
-- Built with Python and modern NLP techniques for accurate document retrieval
-- Optimized query performance and response accuracy for large-scale document processing
-
-### [Research Agent System](https://github.com/asquitt/research-agent-system)
-An autonomous AI research agent that gathers, analyzes, and synthesizes information from multiple sources.
-- Developed intelligent agent workflows for automated research and data collection
-- Integrated multiple APIs and data sources for comprehensive information gathering
-- Built with Python, leveraging async processing for efficient multi-source queries
-
-### [AI Chatbot Platform](https://github.com/asquitt)
-Full-stack conversational AI platform providing universities with intelligent access to course catalogs, tuition, and admissions data.
-- Architected scalable backend using FastAPI, Scala, and Java with Postgres, Elasticsearch, and Kafka
-- Built accessible UI with TypeScript, React, and Next.js ensuring WCAG 2.1 compliance
-- Handles 100K+ chatbot interactions monthly with real-time event analytics
-
-## GitHub Stats
-
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=asquitt&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=asquitt&layout=compact&theme=radical)
-
-## Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/demario-asquitt)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/asquitt)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:demarioasquitt@gmail.com)
+I'm drawn to the hard problems: How do you make agents reliable at scale? How do you orchestrate dozens of autonomous processes without chaos? How do you build AI that works on *every* platform without a single hardcoded rule?
 
 ---
 
-⭐️ From [asquitt](https://github.com/asquitt)
+### Currently Building
 
-<!--
-**asquitt/asquitt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<table>
+<tr>
+<td width="100" align="center">
+  <img src="https://img.shields.io/badge/Orbitr-7c3aed?style=for-the-badge&logoColor=white" alt="Orbitr"/>
+</td>
+<td>
 
-Here are some ideas to get you started:
+**[Orbitr](https://www.getorbitr.com)** — Autonomous AI marketing platform
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+12 specialized agents orchestrated via Celery + Redis that analyze, strategize, and execute SEO across GitHub Pages, WordPress, Shopify, and Webflow — zero platform-specific hardcoding. The system reasons about each site using LLM intelligence, not brittle rules.
+
+`FastAPI` `Next.js 14` `PostgreSQL` `Celery` `Redis` `Claude` `GPT-4`
+
+</td>
+</tr>
+</table>
+
+---
+
+### Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### [`research-agent-system`](https://github.com/asquitt/research-agent-system)
+Multi-agent LLM orchestration for collaborative research, validation, and synthesis with tool integration. Agents work in parallel, cross-validate findings, and produce structured intelligence reports.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![GPT-4](https://img.shields.io/badge/GPT--4-412991?style=flat-square&logo=openai&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+#### [`govtech-sniper`](https://github.com/asquitt/govtech-sniper)
+B2B SaaS platform automating US Government contract discovery, RFP analysis, and AI-powered proposal generation. Turns the federal procurement maze into a competitive advantage.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![GPT-4](https://img.shields.io/badge/GPT--4-412991?style=flat-square&logo=openai&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [`cove`](https://github.com/asquitt/cove)
+ADHD-friendly iOS task management with AI-powered capture, intelligent classification, gamification, and energy rhythm adaptation. Built for brains that work differently.
+
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
+![Core ML](https://img.shields.io/badge/Core_ML-000000?style=flat-square&logo=apple&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0071e3?style=flat-square&logo=swift&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+#### [`distributed-kv-store`](https://github.com/asquitt/distributed-kv-store)
+Fault-tolerant distributed key-value store implementing Raft consensus, gRPC communication, and production durability patterns. Because understanding distributed systems from first principles matters.
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=google&logoColor=white)
+![Raft](https://img.shields.io/badge/Raft_Consensus-333333?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+---
+
+### Tech Arsenal
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+
+**AI & Agents**
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/GPT--4-412991?style=flat-square&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Claude-d4a574?style=flat-square&logo=anthropic&logoColor=white)
+![Core ML](https://img.shields.io/badge/Core_ML-000000?style=flat-square&logo=apple&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Systems-6366f1?style=flat-square)
+![Multi-Agent](https://img.shields.io/badge/Multi--Agent_Orchestration-7c3aed?style=flat-square)
+
+**Infrastructure**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=flat-square&logo=apachecassandra&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=google&logoColor=white)
+
+**Frameworks**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
+
+---
+
+### Beyond the Code
+
+When I'm not building agents, I'm captaining trivia teams to **national championships** (Final 8, NAQT) or volunteering meal services at the **Hoboken Homeless Shelter**. I believe the same skills that make a great engineer — pattern recognition, empathy, relentless curiosity — make a better human too.
+
+---
+
+<p align="center">
+  <a href="https://linkedin.com/in/demario-asquitt">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="mailto:demarioasquitt@outlook.com">
+    <img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"/>
+  </a>
+  &nbsp;
+  <a href="https://www.getorbitr.com">
+    <img src="https://img.shields.io/badge/Orbitr-7c3aed?style=for-the-badge&logoColor=white" alt="Orbitr"/>
+  </a>
+</p>
+
+<p align="center">
+  <sub>This README was not autonomously generated by one of my agents. But it could have been.</sub>
+</p>
