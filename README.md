@@ -4,7 +4,7 @@
 
 I'm a Software Engineer passionate about building scalable, distributed systems and AI-powered applications. I love architecting backend services, building Agentic AI solutions, optimizing performance, and creating impactful full-stack solutions that serve real users.
 
-- I'm currently working on AI agents for SEO and GEO at [Orbitr](https://www.getorbitr.com/) (fresh out of Stealth mode).
+- I'm currently working on AI agents for SEO and GEO at [Orbitr](https://www.getorbitr.com/) (fresh out of Stealth mode)
 - I'm currently learning advanced distributed systems architecture and vector-based semantic search
 - I'm looking to collaborate on open-source projects involving AI/ML, microservices, or NLP applications
 - Ask me about backend architecture, performance optimization, Kafka event streams, or building accessible UIs
