@@ -1,40 +1,92 @@
-# Demario Asquitt
+# Hi there, I'm Demario 
 
-### Backend engineering, distributed systems, and AI agents you can inspect.
+## About Me
 
-I build the systems around AI: how agents get permission to act, how their work is traced, how failures are recovered, and how we decide whether a change actually helped.
+I'm a Software Engineer passionate about building scalable, distributed systems and AI-powered applications. I love architecting backend services, building Agentic AI solutions, optimizing performance, and creating impactful full-stack solutions that serve real users.
 
-My projects span Python services, TypeScript applications, agent infrastructure, and evaluation tooling. I like following a problem all the way from an API contract to the person trying to use it.
+- I'm currently learning advanced distributed systems architecture and vector-based semantic search
+- I'm looking to collaborate on open-source projects involving AI/ML, microservices, or NLP applications
+- Ask me about backend architecture, performance optimization, Kafka event streams, or building accessible UIs
+- How to reach me: demarioasquitt@gmail.com
+- Fun fact: I won First Place at the NEDSI Annual Conference 2022 for applying Multilingual Sentiment Analysis to predict threats from social media
 
-[Portfolio](https://demario-portfolio.demarioasquitt.chatgpt.site/) · [LinkedIn](https://www.linkedin.com/in/demario-asquitt/) · [Email](mailto:demarioasquitt@gmail.com)
+## Tech Stack
 
-## Selected work
+### Languages
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat&logo=swift&logoColor=white)
 
-| Project | The problem I explored | Start here |
-| --- | --- | --- |
-| **[AgentHub](https://github.com/asquitt/agent-hub)** | Scoped agent identity, revocation, and accountable MCP tool calls | [Relay and signed receipts](https://github.com/asquitt/agent-hub/tree/main/src/relay) |
-| **[AI Trace](https://github.com/asquitt/agent-trace)** | Following async AI workflows while controlling sensitive trace data | [Context and tracing](https://github.com/asquitt/agent-trace/tree/main/src/tracing) |
-| **[AgentGuard](https://github.com/asquitt/agent-guard)** | Inspecting AI requests through detector pipelines and adversarial test cases | [Detection pipeline](https://github.com/asquitt/agent-guard/tree/main/agentguard-backend/backend/app/services/detection) |
-| **[SynthArena](https://github.com/asquitt/synth-arena)** | Finding behavioral, cost, and latency regressions in agent evaluations | [Graders](https://github.com/asquitt/synth-arena/blob/main/packages/core/src/graders.ts) |
-| **[Distributed KV Store](https://github.com/asquitt/distributed-kv-store)** | Consensus, fault tolerance, and durable state | [Repository](https://github.com/asquitt/distributed-kv-store) |
-| **[Cove](https://github.com/asquitt/cove)** | Making task capture and planning more approachable | [iOS application](https://github.com/asquitt/cove) |
+### Frameworks & Libraries
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Redux](https://img.shields.io/badge/-Redux-764ABC?style=flat&logo=redux&logoColor=white)
 
-## How I approach engineering
+### Databases & Messaging
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Cassandra](https://img.shields.io/badge/-Cassandra-1287B1?style=flat&logo=apache-cassandra&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
+![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
 
-**Make the boundary explicit.** A tool call needs scoped authority. A trace needs an owner. A retry needs a clear answer about what already happened.
+### Tools & Platforms
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
+![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
-**Make the claim inspectable.** I care about failure-path tests, reproducible examples, and readable implementation links. A local test and a deployed customer outcome answer different questions.
+## Featured Projects
 
-**Keep the product in view.** Reliability matters most when it helps someone complete their work. I enjoy the connection between backend design, clear interfaces, and useful products.
+### [Advanced RAG System](https://github.com/asquitt/advanced-rag-system)
+An intelligent Retrieval-Augmented Generation system leveraging vector embeddings and semantic search for enhanced AI responses.
+- Implemented vector-based semantic retrieval using Elasticsearch for fast, context-aware search
+- Built with Python and modern NLP techniques for accurate document retrieval
+- Optimized query performance and response accuracy for large-scale document processing
 
-## Tools I work with
+### [Research Agent System](https://github.com/asquitt/research-agent-system)
+An autonomous AI research agent that gathers, analyzes, and synthesizes information from multiple sources.
+- Developed intelligent agent workflows for automated research and data collection
+- Integrated multiple APIs and data sources for comprehensive information gathering
+- Built with Python, leveraging async processing for efficient multi-source queries
 
-Python · TypeScript · SQL · FastAPI · React / Next.js · PostgreSQL · Redis / Celery · Docker
+### [AI Chatbot Platform](https://github.com/asquitt)
+Full-stack conversational AI platform providing universities with intelligent access to course catalogs, tuition, and admissions data.
+- Architected scalable backend using FastAPI, Scala, and Java with Postgres, Elasticsearch, and Kafka
+- Built accessible UI with TypeScript, React, and Next.js ensuring WCAG 2.1 compliance
+- Handles 100K+ chatbot interactions monthly with real-time event analytics
 
-My main interests are backend platforms, distributed systems, AI infrastructure, observability, and developer tools.
+## GitHub Stats
 
-## Let's build something useful
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=asquitt&layout=compact&theme=radical)
 
-I'm interested in engineering roles and collaborations where I can own meaningful backend or AI infrastructure problems. If you're working on agent permissions, evaluation, tracing, or reliable workflow execution, I'd enjoy comparing notes.
+## Connect With Me
 
-**[Get in touch](mailto:demarioasquitt@gmail.com)** or open an issue on a project with a concrete question or small reproduction.
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/demario-asquitt)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/asquitt)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:demarioasquitt@gmail.com)
+
+---
+
+⭐️ From [asquitt](https://github.com/asquitt)
+
+<!--
+**asquitt/asquitt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
