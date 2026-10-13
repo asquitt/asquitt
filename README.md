@@ -1,92 +1,54 @@
-# Hi there, I'm Demario 
+<a href="https://github.com/asquitt#selected-work">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img alt="Demario Asquitt: I build what sits between an AI agent's next action and production. AgentHub decides whether it may act, AgentGuard checks whether the input is hostile, AgentTrace records what happened, SynthArena measures whether a change helped." src="assets/banner-light.svg" width="100%">
+  </picture>
+</a>
 
-## About Me
+<p align="center">
+  <a href="https://demario-portfolio.demarioasquitt.chatgpt.site/"><b>Portfolio</b></a> ·
+  <a href="https://www.linkedin.com/in/demario-asquitt/"><b>LinkedIn</b></a> ·
+  <a href="mailto:demarioasquitt@gmail.com"><b>Email</b></a>
+</p>
 
-I'm a Software Engineer passionate about building scalable, distributed systems and AI-powered applications. I love architecting backend services, building Agentic AI solutions, optimizing performance, and creating impactful full-stack solutions that serve real users.
+Most agent demos stop at *"it called the tool."* My work starts there:
 
-- I'm currently learning advanced distributed systems architecture and vector-based semantic search
-- I'm looking to collaborate on open-source projects involving AI/ML, microservices, or NLP applications
-- Ask me about backend architecture, performance optimization, Kafka event streams, or building accessible UIs
-- How to reach me: demarioasquitt@gmail.com
-- Fun fact: I won First Place at the NEDSI Annual Conference 2022 for applying Multilingual Sentiment Analysis to predict threats from social media
+> **Was it allowed to?** &nbsp;**Was the input hostile?** &nbsp;**What actually happened?** &nbsp;**Did the last change make it better?**
 
-## Tech Stack
+I'm a software engineer who builds backend and AI infrastructure. Each question above is its own open-source repo, written as production code with real tests, migrations, CI, and failure-path handling, not as a notebook.
 
-### Languages
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat&logo=swift&logoColor=white)
+## Selected work
 
-### Frameworks & Libraries
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Redux](https://img.shields.io/badge/-Redux-764ABC?style=flat&logo=redux&logoColor=white)
+| | Project | What's hard about it | Read this first |
+|:-:|---|---|---|
+| 🔐 | **[AgentHub](https://github.com/asquitt/agent-hub)**<br><sub>Python · FastAPI · MCP</sub> | Agent identity with **attenuating delegation**. Authority is rechecked at the network boundary, so a revoked credential can't slip through. Crash-safe idempotency keeps an *unknown* outcome instead of blindly replaying it, and every call gets an **Ed25519-signed receipt**. | [`relay/service.py`](https://github.com/asquitt/agent-hub/blob/main/src/relay/service.py) |
+| 🛡️ | **[AgentGuard](https://github.com/asquitt/agent-guard)**<br><sub>Python · Celery · Next.js</sub> | An LLM proxy with **21 pluggable detectors** (prompt injection, MCP security, memory exfiltration, scope enforcement, and more). Twelve run inline in the request path and nine run as background analysis. A red-team engine mutates attacks across Unicode, encodings, Markdown, and multi-turn escalation. | [`detection/pipeline.py`](https://github.com/asquitt/agent-guard/blob/main/agentguard-backend/backend/app/services/detection/pipeline.py) |
+| 🔭 | **[AgentTrace](https://github.com/asquitt/agent-trace)**<br><sub>Python · PostgreSQL · Celery</sub> | Trace context that survives nested `async` calls *and* queue hops. Storage is tenant-scoped, prompt capture is opt-in, and a durable outbox with claim and expiry recovery makes notifications survive retries. | [`tracing/context.py`](https://github.com/asquitt/agent-trace/blob/main/src/tracing/context.py) |
+| 🧪 | **[SynthArena](https://github.com/asquitt/synth-arena)**<br><sub>TypeScript · pnpm monorepo</sub> | Agent evals beyond one lucky run: repeated trials, composable graders, and **regression diffs** that catch a newly broken scenario hidden by a better average, with cost and latency deltas alongside. | [`replay/regression.ts`](https://github.com/asquitt/synth-arena/blob/main/packages/replay/src/regression.ts) |
 
-### Databases & Messaging
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Cassandra](https://img.shields.io/badge/-Cassandra-1287B1?style=flat&logo=apache-cassandra&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
-![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
+**Also built**
 
-### Tools & Platforms
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat&logo=grafana&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
+- 📱 **[Cove](https://github.com/asquitt/cove)**: an iPhone app (Swift, SwiftUI, SwiftData) for adults with ADHD, run as a privacy-first field study with pre-declared go/no-go criteria. All data stays on the device.
+- 🌿 **[NatureDex](https://github.com/asquitt/NatureDex)**: a cross-platform plant classifier and collection app. **1st Overall at BackyardHacks.**
+- 🎓 Before this, I built a conversational AI platform that gives universities self-serve access to course, tuition, and admissions data. It handles **100K+ chatbot interactions a month** (FastAPI, Java, Scala, Postgres, Elasticsearch, Kafka, and a WCAG 2.1-compliant Next.js front end).
 
-## Featured Projects
+## How I build
 
-### [Advanced RAG System](https://github.com/asquitt/advanced-rag-system)
-An intelligent Retrieval-Augmented Generation system leveraging vector embeddings and semantic search for enhanced AI responses.
-- Implemented vector-based semantic retrieval using Elasticsearch for fast, context-aware search
-- Built with Python and modern NLP techniques for accurate document retrieval
-- Optimized query performance and response accuracy for large-scale document processing
+- **Boundaries before features.** Every tool call has scoped authority, every trace has an owner, and every retry knows what already happened.
+- **Claims you can check.** Failure-path tests, runnable examples, and READMEs that state what the code *doesn't* do.
+- **Product in view.** Reliability matters because someone is trying to get work done. I like following a problem from the API contract to the person using it.
 
-### [Research Agent System](https://github.com/asquitt/research-agent-system)
-An autonomous AI research agent that gathers, analyzes, and synthesizes information from multiple sources.
-- Developed intelligent agent workflows for automated research and data collection
-- Integrated multiple APIs and data sources for comprehensive information gathering
-- Built with Python, leveraging async processing for efficient multi-source queries
+## Toolbox
 
-### [AI Chatbot Platform](https://github.com/asquitt)
-Full-stack conversational AI platform providing universities with intelligent access to course catalogs, tuition, and admissions data.
-- Architected scalable backend using FastAPI, Scala, and Java with Postgres, Elasticsearch, and Kafka
-- Built accessible UI with TypeScript, React, and Next.js ensuring WCAG 2.1 compliance
-- Handles 100K+ chatbot interactions monthly with real-time event analytics
+<p>
+  <a href="#toolbox"><img src="https://skillicons.dev/icons?i=python,ts,go,swift,fastapi,nextjs,react,postgres,redis,kafka,elasticsearch,docker,kubernetes,githubactions&perline=14" alt="Python, TypeScript, Go, Swift, FastAPI, Next.js, React, PostgreSQL, Redis, Kafka, Elasticsearch, Docker, Kubernetes, GitHub Actions"></a>
+</p>
 
-## GitHub Stats
+## Recognition
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=asquitt&layout=compact&theme=radical)
-
-## Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/demario-asquitt)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/asquitt)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:demarioasquitt@gmail.com)
+- 🥇 **1st Place, NEDSI Annual Conference 2022**: multilingual sentiment analysis to predict threats from social media
+- 🥇 **1st Overall, BackyardHacks**: NatureDex
 
 ---
 
-⭐️ From [asquitt](https://github.com/asquitt)
-
-<!--
-**asquitt/asquitt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<sub>Open to backend and AI-infrastructure roles. If you're working on agent permissions, evals, tracing, or reliable workflow execution, <a href="mailto:demarioasquitt@gmail.com">let's talk</a>. Earlier work (2020–2023) lives at <a href="https://github.com/demarioasquitt">@demarioasquitt</a>, an account I no longer have access to.</sub>
